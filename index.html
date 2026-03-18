@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- D3 link -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Popup Cards -->
+<div id="detailed-popup-card" style="
+        position: absolute;
+        pointer-events: none;
+        opacity: 0;
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        padding: 8px;
+        border-radius: 4px;
+        font-family: sans-serif;
+        font-size: 14px;
+        z-index: 1000;"></div>
+
+<!-- Title -->
+<h1 class="title">How do Video Game Franchises Fare Over Time?</h1>
+
+<!-- Dsecription -->
+<p class="desc">There have been an assortment of significant video game franchises created over the years. These range from
+household names, such as Mario, Pokemon, or Call of Duty, to lesser-known series, such as Monster Hunter or Forza.
+However, as franchises age and release more entries, do they decay? Do franchises see lower sales and/or lower critical
+ratings as they age? <br> <br> Each point represents a video game franchise. Click on a franchise to learn more.</p>
+
+<!-- Create an area to display data visualization -->
+<div id="vis-area" style="width: 1000px; height: 800px"></div>
+
+<!-- Javascript script files link -->
+<script src="js/vis.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
