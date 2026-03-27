@@ -11,7 +11,7 @@ d3.csv('data/franchise_data.csv').then(csv => {
 
     video_game_franchise_data = csv
     console.log(video_game_franchise_data)
-    let vis = new Vis('vis-area', video_game_franchise_data)
+    let vis = new QuadrantChart('vis-area', video_game_franchise_data)
     console.log(vis)
 })
 
