@@ -68,7 +68,7 @@ class QuadrantChart {
             'Sonic': 'img/Sonic.png',
             'Tomb Raider': 'img/Tomb Raider.png',
             'Grand Theft Auto': 'img/Grand Theft Auto.png',
-            'FIFA': 'img/FiFA.png',
+            'FIFA': 'img/FIFA.png',
             'Monster Hunter': 'img/Monster Hunter.png',
                 'Call of Duty': 'img/Call of Duty.png',
                 'Diablo': 'img/Diablo.png',
